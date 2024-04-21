@@ -1,54 +1,50 @@
+/* For Navigation */
 nav {
-    background-color: blue;
+    background-color: blue; /* Background color stretches the entire length of the page */
     overflow: hidden;
-    width: 100%;
-    position: relative;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    text-align: center; /* Centers the navigation list */
 }
 
 nav ul {
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-}
-
-nav li {
-    display: inline-block;
-}
-
-nav a {
-    display: block;
-    padding: 15px 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Sidebar */
-aside {
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: red;
-    width: 20%;
-    height: 100%;
-    list-style-type: none;
+    list-style-type: none; /* Removes bullet points */
     margin: 0;
     padding: 0;
 }
 
-aside ul {
-    padding: 15px 0;
+nav ul li {
+    display: inline-block; /* Display items horizontally */
 }
 
-aside li {
-    display: block;
-}
-
-aside a {
+nav ul li a {
     display: block;
     padding: 10px 20px;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none; /* Removes underlines */
+}
+
+/* For Sidebar */
+aside {
+    position: fixed; /* Fixed position so it scrolls with the page */
+    right: 0;
+    top: 0;
+    background-color: red;
+    width: 20%;
+    height: 100%; /* Fills the height of the viewport */
+    overflow-y: auto; /* Enables scrolling */
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    padding: 15px 0;
+    text-align: center;
+}
+
+aside ul li a {
+    color: #fff;
+    text-decoration: none; /* Removes underlines */
 }
