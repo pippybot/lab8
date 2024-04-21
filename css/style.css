@@ -1,56 +1,56 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-nav {
-    background-color: blue;
-    overflow: hidden;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    text-align: center;
+header {
+  background-color: blue; /* Stretch the entire length of the page */
+  text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#main-navbar {
+  overflow: hidden;
 }
 
-nav ul li {
-    display: inline-block;
+#main-navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-nav ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
+#main-navbar ul li {
+  display: inline-block;
 }
 
-aside {
-    position: fixed;
-    background-color: red;
-    width: 20%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    overflow-y: auto; /* to enable scrolling */
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
 }
 
-aside ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+#sidebar {
+  position: fixed;
+  background-color: red; /* Stretch the entire length of the page */
+  width: 20%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  overflow-y: auto; /* to enable scrolling */
 }
 
-aside ul li {
-    padding: 15px 0;
-    text-align: center;
+#sidebar-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-aside ul li a {
-    color: #fff;
-    text-decoration: none;
+#sidebar-container ul li {
+  padding: 15px 0;
+  text-align: center;
+}
+
+#sidebar-container ul li a {
+  color: #fff;
+  text-decoration: none;
 }
