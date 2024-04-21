@@ -1,56 +1,50 @@
-body {
-  margin: 0;
-  padding: 0;
+/* For Navigation */
+nav {
+    background-color: blue; /* Background color stretches the entire length of the page */
+    overflow: hidden;
+    text-align: center; /* Centers the navigation list */
 }
 
-header {
-  background-color: blue; /* Stretch the entire length of the page */
-  text-align: center;
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
 }
 
-#main-navbar {
-  overflow: hidden;
+nav ul li {
+    display: inline-block; /* Display items horizontally */
 }
 
-#main-navbar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none; /* Removes underlines */
 }
 
-#main-navbar ul li {
-  display: inline-block;
+/* For Sidebar */
+aside {
+    position: fixed; /* Fixed position so it scrolls with the page */
+    right: 0;
+    top: 0;
+    background-color: red;
+    width: 20%;
+    height: 100%; /* Fills the height of the viewport */
+    overflow-y: auto; /* Enables scrolling */
 }
 
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-#sidebar {
-  position: fixed;
-  background-color: red; /* Stretch the entire length of the page */
-  width: 20%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  overflow-y: auto; /* to enable scrolling */
+aside ul li {
+    padding: 15px 0;
+    text-align: center;
 }
 
-#sidebar-container ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#sidebar-container ul li {
-  padding: 15px 0;
-  text-align: center;
-}
-
-#sidebar-container ul li a {
-  color: #fff;
-  text-decoration: none;
+aside ul li a {
+    color: #fff;
+    text-decoration: none; /* Removes underlines */
 }
