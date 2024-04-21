@@ -1,0 +1,50 @@
+/* For Navigation */
+nav {
+    background-color: blue; /* Background color stretches the entire length of the page */
+    overflow: hidden;
+    text-align: center; /* Centers the navigation list */
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display items horizontally */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none; /* Removes underlines */
+}
+
+/* For Sidebar */
+aside {
+    position: fixed; /* Fixed position so it scrolls with the page */
+    right: 0;
+    top: 0;
+    background-color: red;
+    width: 20%;
+    height: 100%; /* Fills the height of the viewport */
+    overflow-y: auto; /* Enables scrolling */
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    padding: 15px 0;
+    text-align: center;
+}
+
+aside ul li a {
+    color: #fff;
+    text-decoration: none; /* Removes underlines */
+}
